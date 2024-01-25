@@ -141,14 +141,14 @@ j )/n;//重置聚类中心
 
 ①关于k-means在Windows上使用MKL（Math Kernel Library）时可能会导致内存泄漏的警告。该警告建议通过设置环境变量OMP_NUM_THREADS=1来避免这个问题。
     在Python中，在开头添加以下代码来设置环境变量：
-    ```
-    # 设置环境变量 OMP_NUM_THREADS=1
-    # 当块数少于可用线程时，KMeans 在使用 MKL 的Windows上会出现内存泄漏。
-    # 通过设置环境变量 OMP_NUM_THREADS=1 来避免它。
-    # 导入 kmeans 之前
-    import os
-    os.environ["OMP_NUM_THREADS"] = '1'
-    ```
+ ```
+# 设置环境变量 OMP_NUM_THREADS=1
+# 当块数少于可用线程时，KMeans 在使用 MKL 的Windows上会出现内存泄漏。
+# 通过设置环境变量 OMP_NUM_THREADS=1 来避免它。
+# 导入 kmeans 之前
+import os
+os.environ["OMP_NUM_THREADS"] = '1'
+ ```
      确保在使用k-means时只使用一个线程，从而避免可能的内存泄漏问题。
 
 ##### ②欧氏距离函数(distance):
@@ -279,43 +279,43 @@ for dataset, name in datasets_list:
 
 #### 6.实验结果
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/4f6f10bf-bfbf-436a-9dbc-e86ecf4423b8)
-鸢尾花数据集K值折线图
+鸢尾花数据集K值折线图<br>
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/b67f9624-49b5-473a-8eea-b74fe0f34c8b)
-鸢尾花数据集聚类效果图 
+鸢尾花数据集聚类效果图<br> 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/e6314ba7-d02d-4abf-b077-3ed204840ceb)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/b25108a9-0996-4de2-9606-29f27aeddc97)
-葡萄酒数据集K值折线图  
+葡萄酒数据集K值折线图<br>  
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/a333a10c-1c56-456c-b979-25605a949aa1)
-葡萄酒数据集聚类效果图 
+葡萄酒数据集聚类效果图<br> 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/ede6ab92-83f8-4917-a61c-bb3fc33b11bc)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/dd5ecb2b-4276-4479-9739-bc3ba810d9ae)
-手写数字数据集K值折线图
+手写数字数据集K值折线图<br>
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/ca8f8711-2147-4695-a541-1a27de811be6)
-手写数字数据集聚类效果图
+手写数字数据集聚类效果图<br>
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/aa754a2e-0919-4ce4-bcf1-5132cf44692f)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/5eb719a9-e96d-432a-ba19-f09c3892b057)
-乳腺癌数据集K值折线图 
+乳腺癌数据集K值折线图<br> 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/07cbbcbd-4a83-4a9a-a77b-39fb3358ea5d)
-乳腺癌数据集聚类效果图
+乳腺癌数据集聚类效果图<br>
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/010341e0-a35c-4eba-9489-949e65db68de)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/f804f28a-ce84-43f6-9f12-f7d05e7df8b7)
-糖尿病数据集K值折线图 
+糖尿病数据集K值折线图<br> 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/207f84f2-eaaa-4bfc-ac28-cc6d998cd8b2)
-糖尿病数据集聚类效果图
+糖尿病数据集聚类效果图<br>
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/3bd35ae7-e14e-4998-975e-8bc86b139890)
 
 #### 7.实验结果分析
 
-k-means算法的优缺点
-优点：
-1、简单易懂：代码结构清晰，易于理解和修改。
-2、功能完整： 实现了K均值聚类算法、手肘法确定最佳K值以及数据集的加载、处理和可视化。
-3、灵活性： 可以轻松处理多个不同特征维度的数据集，并通过PCA进行降维以便可视化。
-缺点：
-1、手肘法选取K值：代码中使用了手肘法来选择最佳的K值，但手肘法有时并不总是最佳的选择，有些情况下可能需要其他评估指标来确定最佳的聚类数。
-2、聚类效果评估： 代码中缺少对聚类效果的定量评估，如轮廓系数等，这些评估指标可以帮助更好地评估聚类结果的质量。
+k-means算法的优缺点<br>
+优点：<br>
+1、简单易懂：代码结构清晰，易于理解和修改。<br>
+2、功能完整： 实现了K均值聚类算法、手肘法确定最佳K值以及数据集的加载、处理和可视化。<br>
+3、灵活性： 可以轻松处理多个不同特征维度的数据集，并通过PCA进行降维以便可视化。<br>
+缺点：<br>
+1、手肘法选取K值：代码中使用了手肘法来选择最佳的K值，但手肘法有时并不总是最佳的选择，有些情况下可能需要其他评估指标来确定最佳的聚类数。<br>
+2、聚类效果评估： 代码中缺少对聚类效果的定量评估，如轮廓系数等，这些评估指标可以帮助更好地评估聚类结果的质量。<br>
 3、内存泄漏警告： 代码中可能会出现与MKL和内存泄漏相关的警告，这可能会影响程序的性能和稳定性。
