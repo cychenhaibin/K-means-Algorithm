@@ -132,10 +132,10 @@ i=1 (Xi)
 j )/n;//重置聚类中心
 　　}while J c (m)-J c (m -1) >ξ
 ```
-曼哈顿距离公式：
-![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/7bac8ffa-de19-4f6a-80a3-5e4733f0485a)
-欧几里得距离公式：
-![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/d736cfa1-c300-4bed-87ce-2f7ff9a1c784)
+曼哈顿距离公式：<br>
+![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/7bac8ffa-de19-4f6a-80a3-5e4733f0485a)<br>
+欧几里得距离公式：<br>
+![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/d736cfa1-c300-4bed-87ce-2f7ff9a1c784)<br>
 
 #### 5. k-means核心代码解析
 
