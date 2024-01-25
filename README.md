@@ -284,32 +284,42 @@ for dataset, name in datasets_list:
 #### 6.实验结果
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/4f6f10bf-bfbf-436a-9dbc-e86ecf4423b8)
 <h6>鸢尾花数据集K值折线图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/b67f9624-49b5-473a-8eea-b74fe0f34c8b)
 <h6>鸢尾花数据集聚类效果图</h6> 
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/e6314ba7-d02d-4abf-b077-3ed204840ceb)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/b25108a9-0996-4de2-9606-29f27aeddc97)
 <h6>葡萄酒数据集K值折线图</h6>  
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/a333a10c-1c56-456c-b979-25605a949aa1)
 <h6>葡萄酒数据集聚类效果图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/ede6ab92-83f8-4917-a61c-bb3fc33b11bc)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/dd5ecb2b-4276-4479-9739-bc3ba810d9ae)
 <h6>手写数字数据集K值折线图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/ca8f8711-2147-4695-a541-1a27de811be6)
 <h6>手写数字数据集聚类效果图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/aa754a2e-0919-4ce4-bcf1-5132cf44692f)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/5eb719a9-e96d-432a-ba19-f09c3892b057)
 <h6>乳腺癌数据集K值折线图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/07cbbcbd-4a83-4a9a-a77b-39fb3358ea5d)
 <h6>乳腺癌数据集聚类效果图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/010341e0-a35c-4eba-9489-949e65db68de)
 
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/f804f28a-ce84-43f6-9f12-f7d05e7df8b7)
 <h6>糖尿病数据集K值折线图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/207f84f2-eaaa-4bfc-ac28-cc6d998cd8b2)
 <h6>糖尿病数据集聚类效果图</h6>
+
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/3bd35ae7-e14e-4998-975e-8bc86b139890)
 
 #### 7.实验结果分析
