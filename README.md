@@ -282,6 +282,7 @@ for dataset, name in datasets_list:
 ```
 
 #### 6.实验结果
+K值最佳为折线图幅度变化最平缓的点
 ![image](https://github.com/cychenhaibin/K-means-Algorithm/assets/117504781/4f6f10bf-bfbf-436a-9dbc-e86ecf4423b8)
 <h6>鸢尾花数据集K值折线图</h6>
 
